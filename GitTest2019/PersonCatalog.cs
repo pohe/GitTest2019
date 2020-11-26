@@ -10,6 +10,7 @@ namespace GitTest2019
 
         public PersonCatalog()
         {
+            //Added PersonCatalog constructor på GitHub server
             persons = new List<Person>();
         }
 

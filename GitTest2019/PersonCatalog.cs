@@ -10,6 +10,7 @@ namespace GitTest2019
 
         public PersonCatalog()
         {
+            //her har vi en constructor kommenteret lokalt
             persons = new List<Person>();
         }
 
@@ -30,5 +31,12 @@ namespace GitTest2019
                 }
             }
         }
+
+        public void AddPerson(string name)
+        {
+            Person p = new Person() {Name = name};
+            persons.Add(p);
+        }
+
     }
 }

@@ -10,6 +10,7 @@ namespace GitTest2019
 
         public int Count
         {
+            //har added comment to count
             get { return persons.Count; }
         }
 

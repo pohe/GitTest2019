@@ -16,12 +16,13 @@ namespace GitTest2019
 
         public PersonCatalog()
         {
+            //Vi arbejder på konstruktøren
             //Added PersonCatalog constructor på GitHub server
             persons = new List<Person>();
         }
 
         public void AddPerson(Person p)
-        { //Added comment to AddPerson Luop local mere added hos luop
+        { //Added comment to AddPerson Luop local added hos pohe
             persons.Add(p);
         }
 

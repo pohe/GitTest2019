@@ -12,5 +12,10 @@ namespace GitTest2019
         {
             persons = new List<Person>();
         }
+
+        public void AddPerson(Person p)
+        {
+            persons.Add(p);
+        }
     }
 }

@@ -17,5 +17,12 @@ namespace GitTest2019
         {
             persons.Add(p);
         }
+
+        public void AddPerson(string name)
+        {
+            Person P = new Person(){Name = name; }
+            persons.Add(p);
+        }
+
     }
 }

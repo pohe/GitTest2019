@@ -8,6 +8,11 @@ namespace GitTest2019
     {
         private List<Person> persons;
 
+        public int Count
+        {
+            get { return persons.Count; }
+        }
+
         public PersonCatalog()
         {
             //Added PersonCatalog constructor på GitHub server

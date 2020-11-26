@@ -22,7 +22,7 @@ namespace GitTest2019
         }
 
         public void AddPerson(Person p)
-        {
+        { //Added comment to AddPerson Luop local
             persons.Add(p);
         }
 

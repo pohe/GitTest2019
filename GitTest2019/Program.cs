@@ -6,6 +6,7 @@ namespace GitTest2019
     {
         static void Main(string[] args)
         {
+            //dette er et nyt program
             Console.WriteLine("Hello World!");
         }
     }

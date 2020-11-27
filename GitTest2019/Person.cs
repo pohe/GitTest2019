@@ -10,5 +10,9 @@ namespace GitTest2019
         public string Name { get; set; }
         public int Id {get;set;}
 
+        public Person()
+        {
+            Name = "Test";
+        }
     }
 }
